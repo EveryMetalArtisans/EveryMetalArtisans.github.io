@@ -2,9 +2,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fafafa;
-    color: #333;
-    background-image: url('https://www.transparenttextures.com/patterns/symphony.png'); /* Subtle background pattern */
+    background-color: #222222; /* Dark background for a high-end look */
+    color: #e0e0e0;
+    background-image: url('https://www.transparenttextures.com/patterns/black-linen.png'); /* Subtle linen texture pattern */
     background-repeat: repeat;
 }
 
@@ -12,13 +12,13 @@ header h1 {
     text-align: center;
     font-size: 2.2em;
     margin-top: 20px;
-    color: #333;
+    color: #e0e0e0; /* Light text color for contrast */
 }
 
 header h3 {
     text-align: center;
     font-size: 1.1em;
-    color: #555;
+    color: #bbbbbb; /* Slightly lighter than the background */
     margin-bottom: 20px;
     padding: 0 20px;
 }
@@ -30,11 +30,12 @@ header {
 }
 
 .logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
     width: 80px; /* Smaller logo size */
     height: auto;
     border-radius: 50%;
-    display: block;
-    margin: 0 auto 10px; /* Center logo */
 }
 
 main {
@@ -51,12 +52,12 @@ main {
     text-align: center;
     font-size: 24px;
     margin-bottom: 20px;
-    color: #333;
+    color: #e0e0e0;
 }
 
 .coffee-table-section p {
     font-size: 1em;
-    color: #666;
+    color: #cccccc; /* Light text color for descriptions */
     line-height: 1.6;
     margin: 10px 20px;
     text-align: left;
@@ -70,10 +71,10 @@ main {
 }
 
 .gallery img {
-    width: 100%; /* Ensure images fit within their grid cells */
+    width: 80%; /* Smaller image size */
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Stronger shadow for contrast */
     transition: transform 0.3s ease-in-out;
 }
 
