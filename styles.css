@@ -6,6 +6,21 @@ body {
     color: #333;
 }
 
+header h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 20px;
+    color: #333;
+}
+
+header h3 {
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+
 header {
     position: relative;
     text-align: center;
@@ -60,3 +75,5 @@ main {
 .gallery img:hover {
     transform: scale(1.05);
 }
+
+
