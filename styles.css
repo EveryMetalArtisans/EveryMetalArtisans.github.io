@@ -71,8 +71,9 @@ main {
 }
 
 .gallery img {
-    width: 80%; /* Smaller image size */
-    height: auto;
+    width: 200px; /* Fixed width */
+    height: 200px; /* Fixed height */
+    object-fit: cover; /* Ensures image scales properly to fill the area */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Stronger shadow for contrast */
     transition: transform 0.3s ease-in-out;
