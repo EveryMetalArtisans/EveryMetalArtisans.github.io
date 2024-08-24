@@ -2,23 +2,23 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1a1a2e; /* Dark navy blue */
-    color: #f4f4f4;
-    background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png'); /* Subtle pattern */
+    background-color: #fafafa;
+    color: #333;
+    background-image: url('https://www.transparenttextures.com/patterns/symphony.png'); /* Subtle background pattern */
     background-repeat: repeat;
 }
 
 header h1 {
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2.2em;
     margin-top: 20px;
-    color: #f4f4f4;
+    color: #333;
 }
 
 header h3 {
     text-align: center;
-    font-size: 1.2em;
-    color: #ddd;
+    font-size: 1.1em;
+    color: #555;
     margin-bottom: 20px;
     padding: 0 20px;
 }
@@ -29,28 +29,18 @@ header {
     margin-bottom: 20px;
 }
 
-.banner {
-    width: 50%; /* Decreased the banner size by 50% */
-    height: auto;
-    margin: 0 auto 20px; /* Center the banner image */
-}
-
 .logo {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 100px;
+    width: 80px; /* Smaller logo size */
     height: auto;
     border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px; /* Center logo */
 }
 
 main {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    background-color: rgba(26, 26, 46, 0.9); /* Slight transparency for contrast */
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .coffee-table-section {
@@ -61,29 +51,29 @@ main {
     text-align: center;
     font-size: 24px;
     margin-bottom: 20px;
-    color: #f4f4f4;
+    color: #333;
 }
 
 .coffee-table-section p {
     font-size: 1em;
-    color: #ddd;
+    color: #666;
     line-height: 1.6;
     margin: 10px 20px;
     text-align: left;
 }
 
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Create a grid with 4 columns */
+    gap: 10px; /* Space between images */
+    justify-items: center; /* Center images in each grid cell */
 }
 
 .gallery img {
-    width: 50%; /* Decrease the size of all gallery images by 50% */
+    width: 100%; /* Ensure images fit within their grid cells */
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
 }
 
